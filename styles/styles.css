@@ -34,13 +34,38 @@ body {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
 }
-
 @media screen and (max-width: 992px) {
-  .navbar-brand img {
+  .navbar .navbar-brand img {
     width: 100px;
   }
 }
-
-.navbar-nav .nav-item:hover {
+.navbar .navbar-nav .nav-item:hover {
   background-color: rgba(180, 190, 203, 0.4);
+}
+.navbar .nav-link {
+  color: white !important;
+}
+
+main {
+  background-image: url("../images/Layer 3.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  background-color: #5d5d5d;
+  padding-top: 150px !important;
+}
+main h2 {
+  font-weight: bold;
+}
+main .image-container {
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  background-color: #df7e1c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=styles.css.map */

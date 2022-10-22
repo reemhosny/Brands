@@ -23,19 +23,52 @@ body {
     background-color: $main-black;
     padding-top: 0 !important;
     padding-bottom: 0 !important;
-}
+   
+    .navbar-brand {
+        img{
+         @media screen and (max-width: 992px) {
+            width: 100px;
+         }
+        }
+       }
+       
+       .navbar-nav .nav-item:hover {
+         background-color: rgba(180, 190, 203, 0.4);
+       }
 
-.navbar-brand {
-   img{
-    @media screen and (max-width: 992px) {
-       width: 100px;
-    }
-   }
-  }
-  
-  .navbar-nav .nav-item:hover {
-    background-color: rgba(180, 190, 203, 0.4);
-  }
-  
+        .nav-link{
+         color: white !important;
+       }
+       
+}
 // End Nav
+
+// Start Main
+main{
+    background-image: url('../images/Layer\ 3.png');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    background-color: #5d5d5d;
+    padding-top: 150px !important;
+    
+    h2{
+        font-weight: bold;
+    }
+
+
+    .image-container{
+        width: 125px;
+        height: 125px;
+        border-radius: 50%;
+        background-color: #df7e1c;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+// End Main
 
