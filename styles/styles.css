@@ -1,0 +1,46 @@
+@font-face {
+  font-family: dinnext;
+  font-weight: 400;
+  src: url("/fonts/DINNextLTArabic-Regular-3.ttf");
+}
+@font-face {
+  font-family: dinnext;
+  font-weight: 500;
+  src: url("/fonts/DINNextLTArabic-Medium-2.ttf");
+}
+@font-face {
+  font-family: dinnext;
+  font-weight: 700;
+  src: url("/fonts/DINNextLTArabic-Bold-4.ttf");
+}
+@font-face {
+  font-family: dinnext;
+  font-weight: 300;
+  src: url("/fonts/DINNEXTLTARABIC-LIGHT-2-2.ttf");
+}
+html,
+body {
+  font-family: Helvetica, sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.layer-1 img {
+  width: 100%;
+}
+
+.navbar {
+  background-color: #232323;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+@media screen and (max-width: 992px) {
+  .navbar-brand img {
+    width: 100px;
+  }
+}
+
+.navbar-nav .nav-item:hover {
+  background-color: rgba(180, 190, 203, 0.4);
+}/*# sourceMappingURL=styles.css.map */

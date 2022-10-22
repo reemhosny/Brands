@@ -1,0 +1,41 @@
+@import './helpers/variables';
+@import './helpers/fonts';
+
+@import './components/main-btn';
+
+// Start Globals
+html,
+body {
+    font-family:  Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+// End Globals
+
+.layer-1{
+    img{
+        width: 100%;
+    }
+}
+
+// Start Nav
+.navbar{
+    background-color: $main-black;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.navbar-brand {
+   img{
+    @media screen and (max-width: 992px) {
+       width: 100px;
+    }
+   }
+  }
+  
+  .navbar-nav .nav-item:hover {
+    background-color: rgba(180, 190, 203, 0.4);
+  }
+  
+// End Nav
+
