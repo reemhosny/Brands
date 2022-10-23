@@ -416,5 +416,31 @@ main{
 
 // End Partners
 
+// Start Footer
+footer{
+    background-color: #181818;
+    padding: 40px 0;
+    color: white;
+   
+    
+    .main-block{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-block *{
+        width: 50%;
+    }
+
+    h6{
+        font-weight: bold;
+        text-align: center;
+        margin: auto;
+    }
+}
+
+// End Footer
+
 
 

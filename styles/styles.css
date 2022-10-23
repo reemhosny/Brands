@@ -380,4 +380,23 @@ main .image-container {
   font-weight: bold;
   padding: 10px 40px;
   text-transform: uppercase;
+}
+
+footer {
+  background-color: #181818;
+  padding: 40px 0;
+  color: white;
+}
+footer .main-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .main-block * {
+  width: 50%;
+}
+footer h6 {
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
 }/*# sourceMappingURL=styles.css.map */
