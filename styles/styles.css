@@ -174,13 +174,14 @@ main .image-container {
   justify-content: center;
   background-color: #262626;
   color: white;
+  padding: 200px 0;
 }
 .partners h2 {
   font-weight: bold;
 }
 
 .slick-slider {
-  margin: auto;
+  margin-top: 200px;
   width: 100%;
 }
 .slick-slider .slider-inner {
